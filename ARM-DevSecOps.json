@@ -97,7 +97,7 @@
         "tier": "Premium1V3",
         "name": "P1v3",
         "family": "Pv3",
-        "capacity": 2,
+        "capacity": 1,
         "size": "P1v3"
       },
       "kind": "linux",
