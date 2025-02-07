@@ -90,14 +90,10 @@
     },
     {
       "type": "Microsoft.Web/serverfarms",
-      "apiVersion": "2021-03-01",
+      "apiVersion": "2024-04-01",
       "name": "[parameters('appServicePlanName')]",
       "location": "[parameters('location')]",
-      "sku": {
-        "tier": "Basic",
-        "name": "B3",
-        "capacity": 1
-      },
+            "sku": {                "name": "B1",                "tier": "Basic",                "size": "B1",                "family": "B",                "capacity": 1            },
       "kind": "linux",
       "properties": {
         "perSiteScaling": false,
